@@ -1,3 +1,3 @@
-Tracking a lifelong math journey.
+Tracking a lifelong math and data science journey.
 
 
