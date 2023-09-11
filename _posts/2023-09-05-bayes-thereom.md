@@ -90,23 +90,24 @@ So you're at a whopping: 90%!
 
 Through the drawing, filtering and applying random stats we just applied the Bayes Theorem. 
 
-$ P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)} $
-
+**Bayes Theorem**
+```math P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)} $$
+```
 
 Where:
-- P(A|B) is the posterior probability of event A given event B.
-- P(B|A)is the probability of event B given event A.
-- P(A)is the prior probability of event A.
-- P(B) is the prior probability of event B.
+-  $`P(A|B)`$ is the posterior probability of event A given event B.
+-  $`P(B|A)`$ is the probability of event B given event A.
+-  $`P(A)`$is the prior probability of event A.
+-  $`P(B)`$ is the prior probability of event B.
 
 
 And in our example: 
 
 Where:
-- \(P(Date Short | Date Asian)\) is the probability of dating a short guy given she's open to dating an Asian guy - what we're trying to figure out
-- \(P(Date Asian | Date Short)\) is the probability of dating an Asian guy given she dates a short guy - 35%
-- \(P(Date Short)\) is the prior probability of event A - 51%
-- \(P(Date Asian)\) is the prior probability of event B - 20%
+-  $`P(Date Short | Date Asian)`$ is the probability of dating a short guy given she's open to dating an Asian guy - what we're trying to figure out
+-  $`P(Date Asian | Date Short)`$ is the probability of dating an Asian guy given she dates a short guy - 35%
+-  $`P(Date Short)`$ is the prior probability of event A - 51%
+-  $`P(Date Asian)`$ is the prior probability of event B - 20%
 
 
 
@@ -117,7 +118,6 @@ But you're also broke and live in a basement which there are no squares for in t
 
 
 
-**Bayes Theorem**
-# Probbility Ch. 5 Ace Data Science Interview
+### Probbility Ch. 5 Ace Data Science Interview
 
 
