@@ -3,7 +3,7 @@
 ## Bayes Theorem
 
 
-Probability is always easy with examples, especially engaging ones.
+Probability is always easier with examples, especially engaging ones.
 
 For this we'll picture you're a short Asian guy on a dating app (aka me off and on several years ago). After reading this depressing [article](https://theconversation.com/asian-guys-stereotyped-and-excluded-in-online-dating-130855) you come to realize that 90% of non-Asian women want nothing to do with you (romantically that is). Yet you continue swiping with a false feeling that you're special, with your current odds of being 10% chance of matching if the person is non-Asian (successful assimilation has made you primarily attracted to non-Asian females).
 
@@ -11,10 +11,10 @@ For sake of argument and because a 10% square is tough to visualize we'll say th
 
 As you're swiping you come across an attractive white brunette and after some Instagram sleuthing, you've seen that her ex-boyfriend was Asian (and presumably still is). Hooray! But then you remember you're short.
 
-However, since she's the same height you still have a shot? 51% of women would date men the same height or shorter than them after all [article](https://fivethirtyeight.com/features/how-common-is-it-for-a-man-to-be-shorter-than-his-partner/)
+However, since she's the same height you still have a shot? 51% of women would date men the same height or shorter than them after all based on this [Five Thirty Eight](https://fivethirtyeight.com/features/how-common-is-it-for-a-man-to-be-shorter-than-his-partner/) article you read.
 
 
-Based on an article (that you can no longer find) you know that 35% of those that are willing to date short guys are also open to date Asians as well.
+Based on another article (that you can no longer find) you know that 35% of those that are willing to date short guys are also open to date Asians as well.
 
 So given these stats you oddly have memorized and the the new information gained from your Instagram sleuthing (creeping) how have your odds changed?
 
@@ -42,13 +42,15 @@ Neat!
 
 So we've just been defining the sample space through drawing shapes with random sizes, let's apply the evidence we've learned along with some of the weird stats you were stating earlier.
 
-Given, only 51% of women would date a shorter man (this may be inflated but we'll run with it), we can adjust the orange square to cover about half of the cirlce. Also, since we know that Asian
+Given, only 51% of women would date a shorter man (this may be inflated but we'll run with it), we can adjust the orange square to cover about half of the cirlce. Also, since we know that 20% of non-Asian women would date an Asian man we'll adjust that square as well to cover about 1/5 of the circle.
 
 ![asian and short adjusted size](/docs/assets/2023-09-05/3-asian_shor4_universe_adjusted_size.png)
 
 
 
-So the new evidence we've learned is that your prospective beau is open to dating Asian men due to her past relationship. As a result we can filter down to the world in which women are open to dating Asian men. 
+So we've as a result defined our sample space! Or in other words created squares with areas based on their respective probabilities. Currently we're looking at the whole universe of non-Asian women, however we do know more. 
+
+The new evidence we learned earlier is that your prospective beau is open to dating Asian men due to her past relationship. As a result we can filter down to the world in which women are open to dating Asian men. 
 
 Circled.
 
@@ -59,26 +61,29 @@ Filtered.
 ![filtered universe](/docs/assets/2023-09-05/5-filtered-universe.png)
 
 
-So we've updated the world to account for our evidence (that she is open to dating asian)
+So we've updated the world to account for our evidence (that she is open to dating an Asian guy). 
 
 
-Our updated question becomes, what's the probability that given 
-we take these areas 
-![filtered universe](/docs/assets/2023-09-05/6-bayes-formula-setup.png)
+Our updated question becomes, what's the probability that given she dates an Asian guy she dates a short Asian guy (aka you)?
 
-So really what we need is a way to define the areas with probabilities 
+It seems rather simple if we remember that the areas = probabilities. We'd really just want to take the area that represents Asian and short men and divide that by the area of all non-Asian women that date Asian men (since this is the complete filtered world we're currently in). 
 
-![filtered universe](/docs/assets/2023-09-05/7-bayes-formula-probability.png)
+So it would look something like this:
 
-
+![bayes formula setup](/docs/assets/2023-09-05/6-bayes-formula-setup.png)
 
 
-TO NARROW DOWN TO THIS WE NEED TO MULTIPLY X WITH Y
+We need a way to define the filtered area. We simply apply the probabilities that helped us to filter down to this specific scenario in the first place.
+
+![bayes formula setup w probability](/docs/assets/2023-09-05/7-bayes-formula-probability.png)
+
+So you're at a whopping: 90%!
 
 
-**Bayes Theorem**
+Through the drawing, filtering and applying random stats we just applied the Bayes Theorem. 
 
-\[P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}\]
+$ P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)} $
+
 
 Where:
 - \(P(A|B)\) is the posterior probability of event A given event B.
@@ -87,14 +92,24 @@ Where:
 - \(P(B)\) is the prior probability of event B.
 
 
+And in our example: 
+
 Where:
-- \(P(Date Short | Date Asian)\) is the probability of dating a short guy given she's open to dating an Asian guy
+- \(P(Date Short | Date Asian)\) is the probability of dating a short guy given she's open to dating an Asian guy - what we're trying to figure out
 - \(P(Date Asian | Date Short)\) is the probability of dating an Asian guy given she dates a short guy - 35%
 - \(P(Date Short)\) is the prior probability of event A - 51%
-- \(P(Date Asian)\) is the prior probability of event B - 10%
+- \(P(Date Asian)\) is the prior probability of event B - 20%
 
 
 
+But you're also broke and live in a basement which there are no squares for in the circle.
+
+
+
+
+
+
+**Bayes Theorem**
 # Probbility Ch. 5 Ace Data Science Interview
 
 
