@@ -102,7 +102,7 @@ Where:
 
 
 
-But you're also broke and live in a basement which there are no squares for in the circle.
+But you're also broke and live in a basement which there are no squares for in the original circle.
 
 
 
