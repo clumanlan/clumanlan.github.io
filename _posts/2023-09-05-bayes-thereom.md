@@ -92,7 +92,7 @@ Through the drawing, filtering and applying random stats we just applied the Bay
 
 **Bayes Theorem**
 ```math 
-    P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}
+    P(A | B) = {P(B|A)  P(A)} \over {P(B)}
 ```
 
 Where:
