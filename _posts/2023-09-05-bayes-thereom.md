@@ -91,13 +91,14 @@ So you're at a whopping: 90%!
 Through the drawing, filtering and applying random stats we just applied the Bayes Theorem. 
 
 **Bayes Theorem**
-```math P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)} $$
+```math 
+    P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}
 ```
 
 Where:
 -  $`P(A|B)`$ is the posterior probability of event A given event B.
 -  $`P(B|A)`$ is the probability of event B given event A.
--  $`P(A)`$is the prior probability of event A.
+-  $`P(A)`$ is the prior probability of event A.
 -  $`P(B)`$ is the prior probability of event B.
 
 
@@ -118,6 +119,6 @@ But you're also broke and live in a basement which there are no squares for in t
 
 
 
-### Probbility Ch. 5 Ace Data Science Interview
+Probbility Ch. 5 Ace Data Science Interview
 
 
