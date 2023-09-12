@@ -92,7 +92,7 @@ Through the drawing, filtering and applying random stats we just applied the Bay
 
 **Bayes Theorem**
 ```math 
-    P(A | B) = {P(B|A)  P(A)} \over {P(B)}
+    P(A | B) = {P(B|A) x P(A) \over P(B)}
 ```
 
 Where:
@@ -110,7 +110,8 @@ Where:
 -  $`P(Date Short)`$ is the prior probability of event A - 51%
 -  $`P(Date Asian)`$ is the prior probability of event B - 20%
 
-
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 But you're also broke and live in a basement which there are no squares for in the original circle.
 
