@@ -94,6 +94,7 @@ So you're at a whopping: 90%!
 Through the drawing, filtering and applying random stats we just applied the Bayes Theorem. 
 
 **Bayes Theorem**
+
 ![bayes thoerem](/docs/assets/2023-09-05/bayes-theorem.png)
 
 Where:
