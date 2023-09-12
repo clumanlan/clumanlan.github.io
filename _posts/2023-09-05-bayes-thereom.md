@@ -95,7 +95,7 @@ Through the drawing, filtering and applying random stats we just applied the Bay
 
 **Bayes Theorem**
 
-![bayes thoerem](/docs/assets/2023-09-05/bayes-theorem.png)
+![bayes thoerem](/docs/assets/2023-09-05/bayes_theorem.png)
 
 Where:
 -  $`P(A|B)`$ is the posterior probability of event A given event B.
