@@ -92,7 +92,7 @@ Through the drawing, filtering and applying random stats we just applied the Bay
 
 **Bayes Theorem**
 ```math 
-    P(A | B) = {P(B|A) x P(A) \over P(B)}
+    P(A | B) = {{P(B|A) x P(A)} \over P(B)}
 ```
 
 Where:
