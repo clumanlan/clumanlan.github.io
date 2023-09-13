@@ -112,10 +112,10 @@ Where:
 -  $`P(Date Short)`$ is the prior probability of event A - 51%
 -  $`P(Date Asian)`$ is the prior probability of event B - 20%
 
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
-But you're also broke and live in a basement which there are no squares for in the original circle.
+
+
+Alas, you're also broke and live in a basement which there are no squares for in the original circle.
 
 
 
