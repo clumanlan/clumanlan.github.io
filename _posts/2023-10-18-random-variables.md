@@ -1,16 +1,15 @@
 2023-10-18
 
-## Random Variable
+## Random Variables
 
 A lot of statistics is concerned with figuring out the probability ditribution of an outcome variable, which in it's simplest form is a random variable.
 
-To backup a bit, it may be helpful to explain what a variable is. A variable is a symbol that represents an unknown mathematical object, which is very wordy for something we've seen  all over the place before. For example: x+1=2 has a variable 'x'.
+To backup a bit, it may be helpful to explain what a variable is. A variable is a symbol that represents an unknown mathematical object. The reason we use variables is so that we can reference a mathematical object without specifically giving it a number.
 
-We have variables just so we can reference to a mathematical object without specifically naming it. This comes in really handy when we want to generalize an equation over all possible situations. For example if you only had $5 and a banana cost $1, you could solve for how many bananas you could by like this: 1*x <= 5 where x = # of bananas. However, you're traveling a ot, so you see a lot of different banana prices and your $5 is worth much more in some of the other countries you're visiting. So if you wanted to take a banana formula with you, you could just exchange the numbers you had for money you have and banana cost for variables. So instead it would be: p*x <= w where p = price of banana, x = # of bananas, and w = amount of money you have. Thanks variables!
+For example: x+1=2 has a variable 'x'. 
 
-$$
-p*x <= w 
-$$
+Using a variable in this situation seems rather pointless since there is really only one value the variable can be, 3 (lol jk). However, variables become really handy when we want to generalize an equation over all possible situations. For example, let's say you only had $5 and a banana cost $1, you could solve for how many bananas you could by like this: 1*x <= 5 where x = # of bananas. However, you're potentially traveling to different countries so you could see a lot of different banana prices. So if you wanted to take a banana formula with you, you could just exchange the numbers price and number banans with variables. So instead it would be: p*x <= 5 where p = price of banana and x = # of bananas Thanks variables!
+
 
 Attempting to transition to random variables, the first question that seems to come up is, what makes a variable 'random'? Variables become random when they come as a result of a random process. That appears to just be repeating words so let's try again. If we think about the banana example again, how would we go about figuring out variable of interest (the price of bananas in each country). We'd visit each of course! Jk, we'd Bing it (that actually does have a nicer ring to it than Google it). 
 
@@ -23,7 +22,7 @@ Let's say we only have four countries we're going to potentially travel to: Phil
 
 We can then take what we learned from our bing serach and map (or assign) each of the corresponding price of a banana to each country. 
 
-![sample space of countries with mapping](/docs/assets/2023-10-18/1-country-sample=space-mapping.png)
+![sample space of countries with mapping](/docs/assets/2023-10-18/1-country-sample-space-mapping.png)
 
 
 I'm making this up. That being said the function of mapping that we did here is what defines what a random variable is.
