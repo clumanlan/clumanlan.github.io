@@ -12,16 +12,22 @@ $$
 p*x <= w 
 $$
 
-Attempting to transition to random variables, the first question that seems to come up is, what makes a variable 'random'? Variables become random when they come as a result of a random process. That appears to just be repeating words so let's try again. If we think about the banana example again, how would we go about figuring out the two variables of interest: the prices of bananas and your corresponding $5 spending power in different countries. We'd visit each of course! Jk, we'd Bing it (that actually does have a nicer ring to it than Google it). 
+Attempting to transition to random variables, the first question that seems to come up is, what makes a variable 'random'? Variables become random when they come as a result of a random process. That appears to just be repeating words so let's try again. If we think about the banana example again, how would we go about figuring out variable of interest (the price of bananas in each country). We'd visit each of course! Jk, we'd Bing it (that actually does have a nicer ring to it than Google it). 
 
 
-Let's say we only have four countries we're going to potentially travel to: Phillippines, Japan, Netherlands or another city in the US. We bing and write down each country with corresponding price of bananas and US dollar conversion with corresponding spending power. What we get then is a mapping (or assignment) of both price and US dollar conversion assigned to each country. 
+Let's say we only have four countries we're going to potentially travel to: Phillippines, Japan, Netherlands or another city in the US. So we can draw up the potential outcomes of our journey.
 
-PICTURE OF MAPPING HERE
+![sample space of countries](/docs/assets/2023-10-18/0-country-sample-space.png)
 
-I'm making this shit up. That being said the function of mapping that we did here is what defines what a random variable is.
 
-PICTURE OF MAPPING HERE + DEFINING RANDOM VARIABLE HERE
+
+We can then take what we learned from our bing serach and map (or assign) each of the corresponding price of a banana to each country. 
+
+![sample space of countries with mapping](/docs/assets/2023-10-18/1-country-sample=space-mapping.png)
+
+
+I'm making this up. That being said the function of mapping that we did here is what defines what a random variable is.
+
 
 The really confusing part is that 'random' doesn't mean random in the strict sense, where it's truly unpredictable and without pattern (also a lot of debate whether there is anything that is actually random). Instead, 'random' is more so saying that it comes from uncertain outcomes and the function of mapping from these outcomes to a number, is what a random variable is. The uncertainity lies in the outcome of the experiment (i.e. it's not clear which country you're going to visit).
 
