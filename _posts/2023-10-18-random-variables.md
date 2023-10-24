@@ -2,7 +2,7 @@
 
 ## Random Variables
 
-A lot of statistics is concerned with figuring out the probability ditribution of an outcome variable, which in it's simplest form is a random variable.
+A lot of stasitical modeling is concerned with figuring out the probability ditribution of an outcome, which is really just a random variable.
 
 To backup a bit, it may be helpful to explain what a variable is. A variable is a symbol that represents an unknown mathematical object. The reason we use variables is so that we can reference a mathematical object without specifically giving it a number.
 
@@ -28,37 +28,47 @@ We can then take what we learned from our bing search and map (or assign) each c
 I'm making this up. That being said the function of mapping (i.e. 'P') that we did here is what defines what a random variable is.
 
 
-The really confusing part is that 'random' doesn't mean random in the strict sense, where it's truly unpredictable and without pattern (also a lot of debate whether there is anything that is actually random). Instead, 'random' is more so saying that it comes from uncertain outcomes and the function of mapping from these outcomes to a number, is what a random variable is. The uncertainity lies in the outcome of the experiment (i.e. it's not clear which country you're going to visit).
+The really confusing part is that 'random' doesn't mean random in the strict sense, where it's truly unpredictable and without pattern (also a lot of debate whether there is anything that is actually random). Instead, 'random' references to the fact that it comes from uncertain outcomes and the function of mapping from these outcomes to a number  (i.e. 'P'), is what a random variable is. The uncertainity lies in the outcome of the experiment (i.e. it's not clear which country you're going to visit).
 
 
-It really becomes clear if we add additional uncertainty, like let's say we're uncertain of when we're going on our banana exploration trip. We're either going this year or next.
+It becomes more clear if we add additional uncertainty, like let's say we're uncertain of when we're going on our banana exploration trip. We're either going this year or next and we can only go to Netherlands next year due to budget.
 
-We would expand the white box then to have multiple observations or outcomes related to each country, with each outcome being linked to both a country and year that we visit.
+We would expand the white box then to have multiple observations or outcomes related to each country, with each outcome representing both a country and year that we visit.
+
+![sample space of countries with year](/docs/assets/2023-10-18/2-country-sample-space-w-year.png)
 
 To be clear the white box that the circles sit inside is called a sample space. A sample space simply contains possible outcomes of an experiment. Each possible outcome in a sample space is mutually exclusive (e.g. you can't visit two countries at the same time) and collectively exhuastive (e.g. we have a complete list of possible countries we can visit and when).
 
-So let's change the granularity by adding another variable to each possible outocme, so the outcomes in the sample space now include two defining variables: country and time (year) of visit.
+We can then map these to another random variable that's a function of year.
+
+![sample space of countries with year mapping](/docs/assets/2023-10-18/3-country-sample-space-w-year-mapping.png)
 
 
-![sample space of countries with mapping](/docs/assets/2023-10-18/2-country-sample-space-w-year.png)
+We could define it like this: 
+
+These is a discrete random variable with finite set out of outcomes called a BLAH BLAH BLAH
 
 
-We can map these to new possible outcomes. 
-
-THE EXAMPLE WE HAVE HERE HAS TO MAP TO MULTIPLE VALUES OF US WHERE BANNA PRICE STAYS THE SAME
 
 
-In this example we mapped multiple outcomes to the same value, linked to the uncertainty of a random variable is a probability distribution (i.e. probability of you visiting Thailand this year and paying $0.33 for a banana). 
+We could've changed it so rather than years it was this year or not this year thereby becoming a Poisson Distribution (distribution with 0, 1)
+
+PICTURE OF BINS
+
+probability mass function description here.
 
 
-We call this a discrete random variable, like what year you visit. 
+
+In this example we have multiple values mapped to 2023
 
 
-DEFINE DISCRETE RAPNDOM VARIABLE WITH THE DIFFERENT COUNTRIES THAT WE HAVE HERE:
 
-these discrete variables have probability mass functions
 
-DISCRETE RANDOM VARIABLE VISUAL
+
+each random variable has a probability distribution and from what we know from the distribution model the space
+
+
+
 
 
 
