@@ -20,12 +20,12 @@ Let's say we only have four countries we're going to potentially travel to: Phil
 
 
 
-We can then take what we learned from our bing serach and map (or assign) each of the corresponding price of a banana to each country. 
+We can then take what we learned from our bing search and map (or assign) each country to their corresponding banana price. 
 
 ![sample space of countries with mapping](/docs/assets/2023-10-18/1-country-sample-space-mapping.png)
 
 
-I'm making this up. That being said the function of mapping that we did here is what defines what a random variable is.
+I'm making this up. That being said the function of mapping (i.e. 'P') that we did here is what defines what a random variable is.
 
 
 The really confusing part is that 'random' doesn't mean random in the strict sense, where it's truly unpredictable and without pattern (also a lot of debate whether there is anything that is actually random). Instead, 'random' is more so saying that it comes from uncertain outcomes and the function of mapping from these outcomes to a number, is what a random variable is. The uncertainity lies in the outcome of the experiment (i.e. it's not clear which country you're going to visit).
@@ -33,11 +33,14 @@ The really confusing part is that 'random' doesn't mean random in the strict sen
 
 It really becomes clear if we add additional uncertainty, like let's say we're uncertain of when we're going on our banana exploration trip. We're either going this year or next.
 
-We would expand the sample space then to have multiple observations or outcomes related to each country, with each outcome being linked to a year. To be clear the overall grey square that envelops the circles we've been drawing lines from is called a sample space. A sample space simply containes possible outcomes. Each possible outcome in a sample space is mutually exclusive (e.g. you can't visit two countries at the same time) and collectively exhuastive (e.g. we have a complete list of possible countries we can visit and when).
+We would expand the white box then to have multiple observations or outcomes related to each country, with each outcome being linked to both a country and year that we visit.
+
+To be clear the white box that the circles sit inside is called a sample space. A sample space simply contains possible outcomes of an experiment. Each possible outcome in a sample space is mutually exclusive (e.g. you can't visit two countries at the same time) and collectively exhuastive (e.g. we have a complete list of possible countries we can visit and when).
 
 So let's change the granularity by adding another variable to each possible outocme, so the outcomes in the sample space now include two defining variables: country and time (year) of visit.
 
-SAMPLE SPACE CHANGES WITH 6 VARIABLES DUE TO YEAR
+
+![sample space of countries with mapping](/docs/assets/2023-10-18/2-country-sample-space-w-year.png)
 
 
 We can map these to new possible outcomes. 
