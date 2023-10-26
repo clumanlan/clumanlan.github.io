@@ -50,23 +50,7 @@ Each random variable is mapped to a value and each value has a probability (as a
 In the case of a year, this is a discrete random variable with a finite set out of outcomes (i.e. we can only visit in 2023 or 2024). If we assume each outcome (or circle) has the same probability we can just count the number of outcomes (the circles) to get the total number of events. To get the probability distribution we can just count the outcomes that fall under each bin and divide by the total number of outcomes. 
 
 
-In this example we have multiple values mapped to 2023
-
-
-
-
-
-easy when sample space is finely defined
- 
-
-
-
-each random variable has a probability distribution and from what we know from the distribution model the space
-
-
-
-
-
+So in this example, there's a 3/7 or 43% probability you go in 2023 and a 4/7 or 57% probability you go in 2024.
 
 
 Continous random variable. 
