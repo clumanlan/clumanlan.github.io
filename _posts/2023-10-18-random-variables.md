@@ -28,40 +28,36 @@ We can then take what we learned from our bing search and map (or assign) each c
 I'm making this up. That being said the function of mapping (i.e. 'P') that we did here is what defines what a random variable is.
 
 
-The really confusing part is that 'random' doesn't mean random in the strict sense, where it's truly unpredictable and without pattern (also a lot of debate whether there is anything that is actually random). Instead, 'random' references to the fact that it comes from uncertain outcomes and the function of mapping from these outcomes to a number  (i.e. 'P'), is what a random variable is. The uncertainity lies in the outcome of the experiment (i.e. it's not clear which country you're going to visit).
+The really confusing part is that 'random' doesn't mean random in the strict sense, where it's truly unpredictable and without pattern (also a lot of debate whether there is anything that is actually random). Instead, 'random' references to the fact that it comes from uncertain outcomes and the function of mapping from these outcomes to a number  (i.e. 'P'), is what a random variable is. 
+
+The uncertainity lies in the outcome of the experiment (i.e. it's not clear which country you're going to visit).
 
 
-It becomes more clear if we add additional uncertainty, like let's say we're uncertain of when we're going on our banana exploration trip. We're either going this year or next and we can only go to Netherlands next year due to budget.
+It becomes more clear if we add additional uncertainty, like let's say we're uncertain of when we're going on our banana exploration trip. For all the countries except for the Netherlands we have the option of going this year or next. For the Netherlands we can only go next year due to our current budget.
 
 We would expand the white box then to have multiple observations or outcomes related to each country, with each outcome representing both a country and year that we visit.
 
 ![sample space of countries with year](/docs/assets/2023-10-18/2-country-sample-space-w-year.png)
 
-To be clear the white box that the circles sit inside is called a sample space. A sample space simply contains possible outcomes of an experiment. Each possible outcome in a sample space is mutually exclusive (e.g. you can't visit two countries at the same time) and collectively exhuastive (e.g. we have a complete list of possible countries we can visit and when).
+For clarity sake, the white box that the circles sit inside is called a sample space. A sample space simply contains all possible outcomes of an experiment. Each possible outcome in a sample space is mutually exclusive (e.g. you can't visit two countries at the same time) and collectively exhuastive (e.g. we have a complete list of possible countries we can visit and when).
 
 We can then map these to another random variable that's a function of year.
 
 ![sample space of countries with year mapping](/docs/assets/2023-10-18/3-country-sample-space-w-year-mapping.png)
 
+Each random variable is mapped to a value and each value has a probability (as a result of the uncertainty). 
 
-We could define it like this: 
-
-These is a discrete random variable with finite set out of outcomes called a BLAH BLAH BLAH
-
-
-
-
-We could've changed it so rather than years it was this year or not this year thereby becoming a Poisson Distribution (distribution with 0, 1)
-
-PICTURE OF BINS
-
-probability mass function description here.
-
+In the case of a year, this is a discrete random variable with a finite set out of outcomes (i.e. we can only visit in 2023 or 2024). If we assume each outcome (or circle) has the same probability we can just count the number of outcomes (the circles) to get the total number of events. To get the probability distribution we can just count the outcomes that fall under each bin and divide by the total number of outcomes. 
 
 
 In this example we have multiple values mapped to 2023
 
 
+
+
+
+easy when sample space is finely defined
+ 
 
 
 
@@ -75,16 +71,9 @@ each random variable has a probability distribution and from what we know from t
 
 Continous random variable. 
 
-Random variables are neat because really just referencing to things that we're trying to figure out. It's a bit interesting to think about sample space as well, just like all possible outcomes.
+Random variables are neat because it formalizes the uncertainty that you may try to statistically model. However, it becomes really difficult to actually define a sample space or determine whether what you're looking at has all the possible outcomes in real life. 
 
 
-DISCRETE RANDOM VARIABLE PROBABILITY MASS FUNCTION
 
-PROBABILITY DENSITY FUNCTION
-Last pieces: 
-- you add visuals
-- understand what a probability distribution of a discrete random variable is
-- 
-
-The tricky thing is how we think about linear regression's input variables, are these random variables or just plain old variables? I guess for next time, or never, we'll see.
+Another tricky thing is how we think about linear regression's input variables, are these random variables or just plain old variables? I guess for next time, or never, we'll see.
 
